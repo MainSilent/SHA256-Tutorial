@@ -3,8 +3,8 @@ import string
 from hashlib import sha256
 from random import randint, choice
 
-def password_gen(length=8, chars= string.ascii_letters + string.digits + string.punctuation):
-            return ''.join(choice(chars) for _ in range(length))  
+def password_gen(length=8, chars=string.ascii_letters + string.digits + string.punctuation):
+      return ''.join(choice(chars) for _ in range(length))  
 
 while True:
       u = password_gen()
