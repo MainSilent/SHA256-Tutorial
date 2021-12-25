@@ -1,4 +1,3 @@
-from math import ceil
 from copy import copy
 from functions import Functions
 
